@@ -13,6 +13,7 @@
 		1D21852427C8238C004AD10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D21852227C8238C004AD10C /* Main.storyboard */; };
 		1D21852627C8238E004AD10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D21852527C8238E004AD10C /* Assets.xcassets */; };
 		1D21852927C8238E004AD10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D21852727C8238E004AD10C /* LaunchScreen.storyboard */; };
+		1D3509B827C8286B007FA828 /* PillboxView in Frameworks */ = {isa = PBXBuildFile; productRef = 1D3509B727C8286B007FA828 /* PillboxView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3509B827C8286B007FA828 /* PillboxView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = "PillboxView-Example";
+			packageProductDependencies = (
+				1D3509B727C8286B007FA828 /* PillboxView */,
+			);
 			productName = "PillboxView-Example";
 			productReference = 1D21851927C8238C004AD10C /* PillboxView-Example.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 1D21851027C8238B004AD10C;
+			packageReferences = (
+				1D3509B627C8286B007FA828 /* XCRemoteSwiftPackageReference "PillboxView" */,
+			);
 			productRefGroup = 1D21851A27C8238C004AD10C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D3509B627C8286B007FA828 /* XCRemoteSwiftPackageReference "PillboxView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Awesomeplayer165/PillboxView";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D3509B727C8286B007FA828 /* PillboxView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D3509B627C8286B007FA828 /* XCRemoteSwiftPackageReference "PillboxView" */;
+			productName = PillboxView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D21851127C8238B004AD10C /* Project object */;
 }

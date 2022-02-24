@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PillboxView",
+        "repositoryURL": "https://github.com/Awesomeplayer165/PillboxView",
+        "state": {
+          "branch": null,
+          "revision": "da95fabe2dd39928bcd72395fb49bc19f1dda325",
+          "version": "0.1.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
